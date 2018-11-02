@@ -99,6 +99,9 @@ class Session:
         self.sche.last_epoch = self.step
 
     def inf_batch(self, name, batch):
+        if name == 'train':
+            self.net.zero_grad()
+            
         O, B = batch['O'].cuda(), batch['B'].cuda()
         O, B = Variable(O, requires_grad=False), Variable(B, requires_grad=False)
         R = O - B
@@ -108,7 +111,6 @@ class Session:
         ssim_list = [self.ssim(O - O_R, O - R) for O_R in O_Rs]
 
         if name == 'train':
-            self.net.zero_grad()
             sum(loss_list).backward()
             self.opt.step()
 
