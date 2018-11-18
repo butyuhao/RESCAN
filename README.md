@@ -44,6 +44,13 @@ We concatenate the two images(B and O) together as default inputs. If you want t
 Moreover, there should be three folders 'train', 'val', 'test' in the dataset folder.
 After download the datasets, don't forget to transform the format!
 
+Update: Rain100H has updated its testing set, from origin 100 images(test100) to 200(test200) images. We update the performance of RESCAN + GRU as follow:
+
+|         | PSNR  | SSIM  |
+| :------:| :---: | :---: |
+| test100 | 26.45 | 0.8458 |
+| test200 | 25.92 | 0.8411 |
+
 ## Train, Test and Show
     python train.py
     python eval.py
