@@ -1,6 +1,6 @@
 # RESCAN: Recurrent Squeeze-and-Excitation Context Aggregation Net
 
-[Xia Li][1], Jianlong Wu, [Zhouchen Lin][2], [Hong Liu][3], [Hongbin Zha][4]<br>
+Xia Li, Jianlong Wu, [Zhouchen Lin][2], [Hong Liu][3], [Hongbin Zha][4]<br>
 
 Key Laboratory of Machine Perception, Shenzhen Graduate School, Peking University<br>
 Key Laboratory of Machine Perception (MOE), School of EECS, Peking University<br>
@@ -74,7 +74,6 @@ If you publish your paper that refer to our paper, please cite:
 }
 
 
-  [1]: http://robotics.pkusz.edu.cn/person/inreadings/%E6%9D%8E%E5%A4%8F.2017.%E7%A1%95%E5%A3%AB/
   [2]: http://cis.pku.edu.cn/faculty/vision/zlin/zlin.htm
   [3]: http://robotics.pkusz.edu.cn/team/leader/
   [4]: http://cis.pku.edu.cn/vision/Visual&Robot/people/zha/
