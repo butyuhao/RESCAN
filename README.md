@@ -64,14 +64,15 @@ Update: Rain100H has updated its testing set, from origin 100 images(test100) to
 ## Cite
 If you use our code, please refer this repo.
 If you publish your paper that refer to our paper, please cite:
-@inproceedings{li2018recurrent,
-    title={Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining},
-    author={Li, Xia and Wu, Jianlong and Lin, Zhouchen and Liu, Hong and Zha, Hongbin},
-    booktitle={European Conference on Computer Vision},
-    pages={262--277},
-    year={2018},
-    organization={Springer}
-}
+
+    @inproceedings{li2018recurrent,  
+        title={Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining},  
+        author={Li, Xia and Wu, Jianlong and Lin, Zhouchen and Liu, Hong and Zha, Hongbin},  
+        booktitle={European Conference on Computer Vision},  
+        pages={262--277},  
+        year={2018},  
+        organization={Springer}  
+    }
 
 
   [2]: http://cis.pku.edu.cn/faculty/vision/zlin/zlin.htm
