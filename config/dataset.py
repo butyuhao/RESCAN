@@ -123,7 +123,7 @@ class ShowDataset(Dataset):
         w = int(ww / 2)
 
         #O = np.transpose(img_pair, (2, 0, 1))
-        O = np.transpose(img_pair[:, w:], (2, 0, 1))
+        O = np.transpose(img_pair[:, :w], (2, 0, 1))
         sample = {'O': O}
 
         return sample
